@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    height: 5vh;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #17072b;
+    text-align: center;
+    padding: 20px 0; /* Add padding to the top and bottom */
+    margin-bottom: 0; /* Remove margin at the bottom */
+}
+
+.header h2 {
+    font-size: 5em;
+    color: white;
+    margin-top: 0; /* Remove margin at the top */
+}
+
+.header nav {
+    font-size: 2.5em;
+    color: white;
+    margin-top: 0; /* Remove margin at the top */
+}
+
+.header nav a {
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Remove underline */
+    margin-right: 40px;
+}
+
+.left{
+    float: left;
+}
+
+.left h2{
+    margin: 30px;
+    font-size: 2em;
+}
+
+.left p{
+    margin: 30px;
+    font-size: 25px;
+    margin-right: 900px;
+}
+
+.left img{
+    margin: 30px;
+    width: 1425px;
+    margin-top: -5px;
+}
+
+.right{
+    float: right;
+    position: absolute;
+    background-color: #172d67; 
+    margin: 1500px;
+    margin-top: 17px;
+    height: 672px;
+    width: 900px;
+}
+
+.right h2 {
+    margin: 30px;
+    color: white;
+    font-size: 2em;
+}
+
+.right p {
+    margin: 30px;
+    font-size: 25px;
+    color: white;
+}
+
+
+.img-container {
+    display: flex;
+    margin: 30px;
+    padding-top: 80px;
+}
+
+.img1 {
+    margin-right: 15px; /* Small gap between the images */
+}
+
+.img1 img, .img2 img {
+    max-width: 100%; 
+}
+
+.footer{
+    background-color: #8c15e9;
+    text-align: center;
+    margin-top: 710px;
+    height: 60px;
+}
+
+.footer p{
+    color: white;
+    font-size: 25px;
+}
+
+

@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.title {
+    color: white;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 5em;
+}
+
+.title h1, p{
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    overflow: hidden; /* Clear floats inside main-content */
+}
+
+.main-content h2{
+    margin: 10px;
+}
+
+.cast {
+    width: calc(100% - 150px); /* Adjust width to accommodate the box */
+    float: left; /* Float the cast section to the left */
+    padding-right: 20px; /* Add some padding to the right to create space */
+    padding-bottom: 50px;
+}
+
+.cast h2 {
+    margin: 10px;
+    border-bottom: 1px solid #333;
+    width: 1700px;
+}
+
+.cast ul {
+    position: relative;
+    background: #fff;
+}
+
+.cast ul li {
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(0,0,0,1);
+    transition: transform 0.5s;
+}
+
+.cast ul li:hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background: gray;
+    box-shadow: 0 5px 25px rgba(0,0,0,.2)
+}
+
+.cast ul li span{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: gray;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    transform: translateY(-2px);
+}
+
+.cast ul li:hover span{
+    background: #fff;
+    color: gray;
+}
+
+

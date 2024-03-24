@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+html, body {
+    height: 100%; /* Ensure HTML and body take up the full viewport height */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+}
+
+.main-content {
+    flex: 1; /* Grow to fill remaining space */
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.title {
+    color: white;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 5em;
+}
+
+.title h1, p{
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    overflow: hidden; /* Clear floats inside main-content */
+}
+
+.main-content h2{
+    margin: 10px;
+}
+
+.plot {
+    float: left; /* Float the plot section to the left */
+    width: calc(100% - 120px); /* Set the width to accommodate the box */
+    padding-right: 1500px; /* Add left margin to maintain indentation */
+    padding-bottom: 100px;
+}
+
+.plot h2 {
+    margin: 10px; /* Adjust margin */
+    border-bottom: 1px solid #333; /* Move border to h2 element */
+    width: 1700px; /* Adjust width to match plot section */
+}
+
+.plot p {
+    margin: 10px;
+    justify-content: stretch;
+}
+

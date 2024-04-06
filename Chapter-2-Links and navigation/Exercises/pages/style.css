@@ -47,7 +47,7 @@ body {
 }
 
 .main-content {
-    overflow: hidden; /* Clear floats inside main-content */
+    overflow: hidden; 
 }
 
 .main-content h2{
@@ -55,16 +55,16 @@ body {
 }
 
 .plot {
-    float: left; /* Float the plot section to the left */
-    width: calc(100% - 120px); /* Set the width to accommodate the box */
-    padding-right: 1500px; /* Add left margin to maintain indentation */
+    float: left; 
+    width: calc(100% - 120px); 
+    padding-right: 1500px; 
     padding-bottom: 50px;
 }
 
 .plot h2 {
-    margin: 10px; /* Adjust margin */
-    border-bottom: 1px solid #333; /* Move border to h2 element */
-    width: 1700px; /* Adjust width to match plot section */
+    margin: 10px; 
+    border-bottom: 1px solid #333; 
+    width: 1700px; 
 }
 
 .plot p {
@@ -73,9 +73,9 @@ body {
 }
 
 .cast {
-    width: calc(100% - 150px); /* Adjust width to accommodate the box */
-    float: left; /* Float the cast section to the left */
-    padding-right: 20px; /* Add some padding to the right to create space */
+    width: calc(100% - 150px); 
+    float: left; 
+    padding-right: 20px; 
     padding-bottom: 50px;
 }
 

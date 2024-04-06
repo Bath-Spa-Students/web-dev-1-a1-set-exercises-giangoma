@@ -47,7 +47,7 @@ body {
 }
 
 .main-content {
-    overflow: hidden; /* Clear floats inside main-content */
+    overflow: hidden; 
 }
 
 .main-content h2{

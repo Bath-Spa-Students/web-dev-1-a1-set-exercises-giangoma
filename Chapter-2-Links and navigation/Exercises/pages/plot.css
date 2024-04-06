@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 html, body {
-    height: 100%; /* Ensure HTML and body take up the full viewport height */
+    height: 100%; 
 }
 
 body {
@@ -9,11 +9,11 @@ body {
     padding: 0;
     font-family: "Poppins", sans-serif;
     display: flex;
-    flex-direction: column; /* Stack children vertically */
+    flex-direction: column; 
 }
 
 .main-content {
-    flex: 1; /* Grow to fill remaining space */
+    flex: 1; 
 }
 
 .header {
@@ -57,7 +57,7 @@ body {
 }
 
 .main-content {
-    overflow: hidden; /* Clear floats inside main-content */
+    overflow: hidden; 
 }
 
 .main-content h2{
@@ -65,16 +65,16 @@ body {
 }
 
 .plot {
-    float: left; /* Float the plot section to the left */
-    width: calc(100% - 120px); /* Set the width to accommodate the box */
-    padding-right: 1500px; /* Add left margin to maintain indentation */
+    float: left; 
+    width: calc(100% - 120px); 
+    padding-right: 1500px; 
     padding-bottom: 100px;
 }
 
 .plot h2 {
-    margin: 10px; /* Adjust margin */
-    border-bottom: 1px solid #333; /* Move border to h2 element */
-    width: 1700px; /* Adjust width to match plot section */
+    margin: 10px; 
+    border-bottom: 1px solid #333; 
+    width: 1700px; 
 }
 
 .plot p {

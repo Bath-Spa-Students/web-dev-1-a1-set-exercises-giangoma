@@ -47,7 +47,7 @@ body {
 }
 
 .main-content {
-    overflow: hidden; /* Clear floats inside main-content */
+    overflow: hidden; 
 }
 
 .main-content h2{
@@ -55,9 +55,9 @@ body {
 }
 
 .cast {
-    width: calc(100% - 150px); /* Adjust width to accommodate the box */
-    float: left; /* Float the cast section to the left */
-    padding-right: 20px; /* Add some padding to the right to create space */
+    width: calc(100% - 150px); 
+    float: left; 
+    padding-right: 20px; 
     padding-bottom: 50px;
 }
 
